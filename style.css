@@ -1,0 +1,50 @@
+/* body{
+  background-color: grey;
+} */
+
+#art {
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 5px solid black;
+}
+
+.row {
+  display: table-row;
+  table-layout: auto;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+h1 {
+  background-color: white;
+  background-position: center;
+  align-items: center;
+}
+/* .row2{
+  display: grid;
+  padding-top: 40px;
+  background-color: white;
+} */
+
+button{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+#buttonRed{
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}
+#buttonBlue{
+  background-color: blue;
+}
+#buttonYellow{
+  background-color: yellow;
+}
