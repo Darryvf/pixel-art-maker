@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", pixArt);
 document.addEventListener("DOMContentLoaded", chooseBlueColor);
+document.addEventListener("DOMContentLoaded", chooseRedColor);
+document.addEventListener("DOMContentLoaded", chooseYellowColor);
+document.addEventListener("DOMContentLoaded", chooseGreenColor);
+document.addEventListener("DOMContentLoaded", choosePurpleColor);
+document.addEventListener("DOMContentLoaded", chooseBrownColor);
+document.addEventListener("DOMContentLoaded", chooseBlackColor);
+document.addEventListener("DOMContentLoaded", chooseWhiteColor);
 
 divGrid()
 
@@ -23,17 +30,7 @@ function divGrid(){
 
 
 function pixArt(){
-// art.style.backgroundColor = grey;
-// document.art.style.backgroundColor = "grey";
-// var pixel = document.createElement("div");
-// pixel.id = "art";
-// grid1.name ="art";
-//   grid1.style.backgroundColor = "white";
-//   grid1.style.width = "25px";
-//   grid1.style.height = "25px";
-//   grid1.style.borderStyle = "solid";
-//   grid1.style.borderColor = "black";
-  // document.art.appendChild(grid1);
+
   art.addEventListener("mousedown", function(e){
     var clickOne = e.target;
     if (clickOne != this){
@@ -46,5 +43,54 @@ function chooseBlueColor(){
    buttonBlue.addEventListener("mousedown", function(e){
     var clickOne = e.target
     currentColor = "blue"
+  })
+}
+
+function chooseRedColor(){
+   buttonRed.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "red"
+  })
+}
+
+function chooseYellowColor(){
+   buttonYellow.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "yellow"
+  })
+}
+
+function chooseGreenColor(){
+   buttonGreen.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "green"
+  })
+}
+
+function choosePurpleColor(){
+   buttonPurple.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "purple"
+  })
+}
+
+function chooseBrownColor(){
+   buttonBrown.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "brown"
+  })
+}
+
+function chooseBlackColor(){
+   buttonBlack.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "black"
+  })
+}
+
+function chooseWhiteColor(){
+   buttonWhite.addEventListener("mousedown", function(e){
+    var clickOne = e.target
+    currentColor = "white"
   })
 }
